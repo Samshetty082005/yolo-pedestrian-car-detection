@@ -27,7 +27,7 @@ def main():
         epochs=cfg.get("epochs", 50),
         imgsz=cfg.get("img_size", 640),
         batch=cfg.get("batch", 16),
-        lr=cfg.get("lr", 0.001),
+        lr0=cfg.get("lr", 0.001),
         project="runs/train",
         name="exp",
         exist_ok=True,
