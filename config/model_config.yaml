@@ -1,0 +1,8 @@
+# model hyperparameters and training settings
+model: yolov8n
+epochs: 50
+batch: 16
+img_size: 640
+lr: 0.001
+save_dir: outputs/weights
+metrics_dir: outputs/metrics
