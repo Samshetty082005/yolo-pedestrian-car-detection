@@ -2,7 +2,6 @@
   <img src="https://img.shields.io/badge/YOLOv8-Nano-blue?style=for-the-badge&logo=yolo" alt="YOLOv8"/>
   <img src="https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python" alt="Python"/>
   <img src="https://img.shields.io/badge/PyTorch-2.0+-red?style=for-the-badge&logo=pytorch" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"/>
 </p>
 
 # 🚶‍♂️🚗 YOLO Pedestrian & Car Detection
@@ -162,13 +161,3 @@ The report covers:
 | Annotation Format | YOLO (normalized xywh) |
 
 ---
-
-## 📄 License
-
-This project is for educational purposes. The COCO dataset is licensed under [Creative Commons Attribution 4.0](https://cocodataset.org/#termsofuse).
-
----
-
-<p align="center">
-  <b>Built with ❤️ using YOLOv8 + PyTorch</b>
-</p>
