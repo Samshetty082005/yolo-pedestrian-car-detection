@@ -35,7 +35,10 @@ def main():
     )
 
     # locate best weights and metrics from run directory
+    # Ultralytics may nest output under runs/detect/ or runs/train/
     run_dirs = sorted(glob.glob("runs/train/exp*"))
+    if not run_dirs:
+        run_dirs = sorted(glob.glob("runs/**/train/exp*", recursive=True))
     if run_dirs:
         run_dir = run_dirs[-1]
         best_src = os.path.join(run_dir, "weights", "best.pt")

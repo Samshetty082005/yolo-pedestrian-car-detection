@@ -26,8 +26,17 @@ Thumbs.db
 outputs/weights/*.pt
 runs/
 
+# Pretrained base weights (downloaded automatically)
+yolov8n.pt
+yolo26n.pt
+
 # FiftyOne cache
 fiftyone/
 
-# Dataset images (can be regenerated)
+# Dataset images (regenerated via scripts/download_dataset.py)
 dataset/
+
+# Task files (internal)
+COPILOT_TASK.md
+ANTIGRAVITY_TASK.md
+WORKFLOW.md
